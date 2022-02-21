@@ -1,12 +1,19 @@
 import os
 
 import discord
+import logging
 from discord.ext import commands
 from dotenv import load_dotenv
 
+# Setting up logging
+logger = logging.getLogger('discord')
+logger.setLevel(logging.DEBUG)
+handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
+handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
+logger.addHandler(handler)
+
+# Loads the bot token and guild token from the .env file
 load_dotenv()
-
-
 token = os.getenv('TOKEN')
 guild = os.getenv('GUILD')
 
