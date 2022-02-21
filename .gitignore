@@ -5,3 +5,6 @@
 venv/
 ENV/
 .idea/
+
+# Other files
+discord.log
