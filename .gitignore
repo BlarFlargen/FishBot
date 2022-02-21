@@ -1,0 +1,7 @@
+# dotenv
+.env
+
+# Virtual environment
+venv/
+ENV/
+.idea/
