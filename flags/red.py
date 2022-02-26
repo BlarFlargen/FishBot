@@ -1,3 +1,6 @@
+# These flags were pulled from
+# https://github.com/KennethHarmon/card-project
+# I have made some changes and additions
 redflags = [
     'Has a dozen kids from a dozen partners',
     'Is 40 years older than they are in their profile picture',
