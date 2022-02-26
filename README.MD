@@ -12,5 +12,5 @@ This bot is a personal project I am working on to learn Python.
 - v1.0 = New bot, who dis?
 
 ## Future Plans:
-- Polls cog
+- Refine polls cog
 - Music Cog
